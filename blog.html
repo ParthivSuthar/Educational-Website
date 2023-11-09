@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/assets/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs</h1>
+</section>
+
+<!-- ------ Content ---------- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/assets/certificate.jpg" alt="certificate">
+            <h2>Our Certificate & Online Programs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam cum ullam, sequi modi fuga odio voluptatum pariatur recusandae quasi, aperiam quaerat labore fugit vero voluptas quisquam necessitatibus maxime. Id facilis laborum praesentium consequuntur non, cum tenetur voluptas ut saepe. Fugiat eum obcaecati praesentium voluptates! Eum magni ratione possimus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, sit similique quasi dolores pariatur maxime tempore. Asperiores ipsam cupiditate porro suscipit quibusdam debitis incidunt nulla magnam, eveniet fugit minima molestiae ipsa culpa atque ducimus fugiat fuga quis nemo quia dolorum blanditiis ea delectus eaque ipsum. Soluta, ipsa iure doloribus expedita laboriosam commodi eum alias inventore.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis facere, deserunt totam a ut rem iusto, quae voluptatem blanditiis, autem tempore reiciendis est aspernatur natus earum velit non? Numquam ullam inventore voluptates minus doloribus, repellendus neque dolores dolore consequuntur ad tempora odit explicabo et! Nostrum aperiam id qui accusantium incidunt error sed quidem maxime eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum repellat architecto!</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto eaque dicta, suscipit hic impedit neque recusandae consequatur reiciendis porro consequuntur assumenda libero, inventore exercitationem, voluptatem repellat! Laudantium, cupiditate perferendis? Ab sit iste quisquam necessitatibus. Qui fuga sint nihil ullam ex quidem expedita ducimus, et quae.</p>
+    
+    
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn explore-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+<footer class="footer-section">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ipsa hic? Eum ipsam vero, obcaecati mollitia magni,<br> sequi illum quaerat assumenda fugiat quam esse sunt!</p>
+    <div class="icons">
+        <img src="/assets/Social Media/facebook - negative.svg" alt="facebook">
+        <img src="/assets/Social Media/instagram - negative.svg" alt="facebook">
+        <img src="/assets/Social Media/linkedin - negative.svg" alt="facebook">
+    </div>
+    <h4>2023 © EduFord created by Frontend Developer</h4>
+</footer>
+
+<script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+</script>
+
+</body>
+</html>

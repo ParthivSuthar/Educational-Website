@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/assets/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!-- --------- Content ------------ -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perferendis consequatur aliquid magnam harum fugiat cupiditate. Impedit, sit tempora error ea nulla veniam? Sit, modi quas quos omnis corporis corrupti blanditiis maiores animi! Accusamus ullam, architecto temporibus omnis earum odio mollitia quas consequatur tempora dolorum. Enim provident voluptate totam odio!</p>
+            <a href="#" class="hero-btn explore-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="/assets/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+<footer class="footer-section">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ipsa hic? Eum ipsam vero, obcaecati mollitia magni,<br> sequi illum quaerat assumenda fugiat quam esse sunt!</p>
+    <div class="icons">
+        <img src="/assets/Social Media/facebook - negative.svg" alt="facebook">
+        <img src="/assets/Social Media/instagram - negative.svg" alt="facebook">
+        <img src="/assets/Social Media/linkedin - negative.svg" alt="facebook">
+    </div>
+    <h4>2023 © EduFord created by Frontend Developer</h4>
+</footer>
+
+<script>
+    var navLinks = document.getElementById('navLinks');
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+</script>
+
+</body>
+</html>
